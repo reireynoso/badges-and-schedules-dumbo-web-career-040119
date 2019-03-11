@@ -22,7 +22,7 @@ def assign_rooms(speakers)
   return arr
 end
 
-def printer(attendees)
+def printer
   
-  puts attendees
+
 end
