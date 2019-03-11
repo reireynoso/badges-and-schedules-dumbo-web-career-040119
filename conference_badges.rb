@@ -23,5 +23,8 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  puts "Hello, my name is #{attendees[0]}."
+  
+  attendees.each do |person|
+    puts "Hello, my name is #{person}."
+  end
 end
