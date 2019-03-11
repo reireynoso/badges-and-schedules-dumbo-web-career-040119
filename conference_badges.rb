@@ -29,6 +29,6 @@ def printer(names)
   end
   array2 = assign_rooms(names)
   array2.each do |rooms|
-    puts array2
+    puts rooms
   end
 end
